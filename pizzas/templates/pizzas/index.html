@@ -1,0 +1,20 @@
+{% extends "pizzas/base.html" %}
+
+{% block content %}
+
+<p> Pizzeria </p>
+
+<b><p style="font-size:x-large;color: darkcyan;text-align: center;">We serve all kinds of pizzas for all kinds of people!</p></b>
+<p style="text-align: center;font-size: x-large;color: darkcyan;text-decoration: wavy;">The best pizzas in town!</p>
+
+{% load static %}
+<p>
+    <img align="right" src="{% static "pizzas/pizzeria.jpg" %}" width="600" height="500" />
+
+    <img align="left" src="{% static "pizzas/pizzeria2.jpg" %}" width="600" height="500" />
+</p>
+
+
+
+{% endblock content %}
+
